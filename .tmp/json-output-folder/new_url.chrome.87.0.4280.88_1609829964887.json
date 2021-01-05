@@ -1,0 +1,57 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "New URL",
+    "line": 1,
+    "id": "new-url",
+    "tags": [],
+    "uri": "features\\Second.feature",
+    "elements": [
+      {
+        "id": "new-url;open-google-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open Google PAGE",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I type google",
+            "match": {
+              "location": "features\\step-defination\\step.js:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4228000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "87.0.4280.88"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
